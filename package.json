@@ -1,0 +1,22 @@
+{
+  "name": "@hashiprobr/react-use-refs",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hashiprobr/react-use-refs.git"
+  },
+  "author": "Marcelo Hashimoto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hashiprobr/react-use-refs/issues"
+  },
+  "homepage": "https://github.com/hashiprobr/react-use-refs#readme",
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
