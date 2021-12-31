@@ -1,6 +1,6 @@
 {
   "name": "@hashiprobr/react-use-refs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React Hook for using multiple refs with a clean sintax",
   "keywords": [
     "JavaScript",
