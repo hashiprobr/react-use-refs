@@ -1,21 +1,27 @@
 {
   "name": "@hashiprobr/react-use-refs",
   "version": "1.0.0",
-  "description": "TODO",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "A React Hook for using multiple refs with a clean sintax",
+  "keywords": [
+    "JavaScript",
+    "React",
+    "React Hook",
+    "useRef"
+  ],
+  "homepage": "https://github.com/hashiprobr/react-use-refs#readme",
+  "bugs": {
+    "url": "https://github.com/hashiprobr/react-use-refs/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hashiprobr/react-use-refs.git"
   },
-  "author": "Marcelo Hashimoto",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hashiprobr/react-use-refs/issues"
+  "author": "Marcelo Hashimoto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/hashiprobr/react-use-refs#readme",
   "dependencies": {
     "react": "^17.0.2"
   }
