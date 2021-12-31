@@ -13,6 +13,14 @@ of `this` in class components: you use its properties to preserve values between
 renders, similar to how you would use instance fields.
 
 
+Install
+-------
+
+```
+npm install @hashiprobr/react-use-refs
+```
+
+
 Example
 -------
 
