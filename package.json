@@ -1,6 +1,6 @@
 {
   "name": "@hashiprobr/react-use-refs",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A React Hook for using multiple refs with a clean sintax",
   "keywords": [
     "JavaScript",
@@ -23,6 +23,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "peerDependencies": {
-    "react": "^17.0.2"
+    "react": "^17.0.0"
   }
 }
