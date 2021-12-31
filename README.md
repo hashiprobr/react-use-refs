@@ -24,35 +24,7 @@ npm install @hashiprobr/react-use-refs
 Example
 -------
 
-Instead of multiple calls of `useRef`...
-
-``` js
-import { useRef } from 'react';
-
-export default function MyComponent() {
-    const myIntRef = useRef(1);
-    const myStrRef = useRef('hello');
-    const myObjRef = useRef({ a: 2, b: 'world' });
-
-    function change() {
-        myIntRef.current = 10;
-        myStrRef.current = 'HELLO';
-        myObjRef.current.a = 20;
-        myObjRef.current.b = 'WORLD';
-    }
-
-    return (
-        <div>
-            <p>{myIntRef.current}</p>
-            <p>{myStrRef.current}</p>
-            <p>{myObjRef.current.a}</p>
-            <p>{myObjRef.current.b}</p>
-        </div>
-    );
-}
-```
-
-...you need a single call of `useRefs`.
+You just need a single call of `useRefs`...
 
 ``` js
 import useRefs from '@hashiprobr/react-use-refs';
@@ -77,6 +49,34 @@ export default function MyComponent() {
             <p>{refs.myStr}</p>
             <p>{refs.myObj.a}</p>
             <p>{refs.myObj.b}</p>
+        </div>
+    );
+}
+```
+
+...instead of multiple calls of `useRef`.
+
+``` js
+import { useRef } from 'react';
+
+export default function MyComponent() {
+    const myIntRef = useRef(1);
+    const myStrRef = useRef('hello');
+    const myObjRef = useRef({ a: 2, b: 'world' });
+
+    function change() {
+        myIntRef.current = 10;
+        myStrRef.current = 'HELLO';
+        myObjRef.current.a = 20;
+        myObjRef.current.b = 'WORLD';
+    }
+
+    return (
+        <div>
+            <p>{myIntRef.current}</p>
+            <p>{myStrRef.current}</p>
+            <p>{myObjRef.current.a}</p>
+            <p>{myObjRef.current.b}</p>
         </div>
     );
 }
