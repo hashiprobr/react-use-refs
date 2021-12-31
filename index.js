@@ -1,3 +1,3 @@
-import useRefs from 'src/useRefs';
+import useRefs from './src/useRefs';
 
 export default useRefs;
