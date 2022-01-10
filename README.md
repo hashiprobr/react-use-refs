@@ -13,11 +13,29 @@ of `this` in class components: you use its properties to preserve values between
 renders, similar to how you would use instance fields.
 
 
+Peer dependencies
+-----------------
+
+``` json
+{
+    "react": "^17.0.1"
+}
+```
+
+
 Install
 -------
 
+With npm:
+
 ```
 npm install @hashiprobr/react-use-refs
+```
+
+With yarn:
+
+```
+yarn add @hashiprobr/react-use-refs
 ```
 
 
