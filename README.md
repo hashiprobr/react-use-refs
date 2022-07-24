@@ -18,7 +18,7 @@ Peer dependencies
 
 ``` json
 {
-    "react": "^17.0.1"
+    "react": "17.0.2"
 }
 ```
 
@@ -45,6 +45,8 @@ Example
 You just need a single call of `useRefs`...
 
 ``` js
+import React from 'react';
+
 import useRefs from '@hashiprobr/react-use-refs';
 
 export default function MyComponent() {
@@ -75,6 +77,8 @@ export default function MyComponent() {
 ...instead of multiple calls of `useRef`.
 
 ``` js
+import React from 'react';
+
 import { useRef } from 'react';
 
 export default function MyComponent() {
